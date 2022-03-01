@@ -1,32 +1,34 @@
-# Quantum ESPRESSO syntax for Vim #
+# Quantum ESPRESSO syntax for Vim
 
-## Installing ##
+## Installation
 
-### Manual ###
+### Manual
 
-        mkdir ~/.vim
-        mkdir ~/.vim/ftdetect
-        mkdir ~/.vim/syntax
+#### For Vim 8.0+
 
-        cp ftdetect/espresso.vim ~/.vim/ftdetect/espresso.vim
-        cp syntax/espresso.vim ~/.vim/syntax/espresso.vim
+Vim 8.0+ recognizes plugins under `$HOME/.vim/pack/**/start`.
 
-### Using *install.sh* script ###
+```sh
+$ git clone https://github.com/leseixas/quantum_espresso-vim.git $HOME/.vim/pack/**/start
+```
 
-        sh install.sh
+#### Old Vim
 
-or
+Vim recognizes plugins for syntax highlighting under `$HOME/.vim/syntax` and `$HOME/.vim/ftdetect`.
 
-       chmod +x install.sh
-       ./install.sh
+```sh
+$ git clone https://github.com/leseixas/quantum_espresso-vim.git
+$ mkdir -p $HOME/.vim/ftdetect $HOME/.vim/syntax
+$ cp ./ftdetect/espresso.vim $HOME/.vim/ftdetect/espresso.vim
+$ cp ./syntax/espresso.vim   $HOME/.vim/syntax/espresso.vim
+```
 
-### Vim with Janus ###
+The commands after `git clobe` is written in `install.sh` script.
 
-        cd ~/.vim/janus/vim/langs
-        git clone https://github.com/leseixas/quantum_espresso-vim.git
+### Vim with Janus
 
-## File detection  ##
-
-## Quantum ESPRESSO syntax ##
-
+```sh
+$ cd $HOME/.vim/janus/vim/langs
+$ git clone https://github.com/leseixas/quantum_espresso-vim.git
+```
 
