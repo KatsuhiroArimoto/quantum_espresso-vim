@@ -43,10 +43,10 @@ syntax keyword espressoKey etot_conv_thr forc_conv_thr dt max_seconds nstep next
 syntax keyword espressoKey iprint nberrycyc gdir nppstr nextgroup=espressoNumber skipwhite
 
 " SYSTEM namelist
-syntax keyword espressoKey ibrav nat ntyp nspin nbnd tot_charge tot_magnetization report use_all_frac Hubbard_U Hubbard_J0 Hubbard_alpha Hubbard_beta nextgroup=espressoNumber skipwhite
+syntax keyword espressoKey ibrav A nat ntyp nspin nbnd tot_charge tot_magnetization report use_all_frac Hubbard_U Hubbard_J0 Hubbard_alpha Hubbard_beta nextgroup=espressoNumber skipwhite
 syntax keyword espressoKey ecutwfc ecutrho degauss ecutfock exx_fraction screening_parameter one_atom_occupations q2sigma qcutz ecfixed ecutvcut nextgroup=espressoNumber skipwhite
 syntax keyword espressoKey lda_plus_u_kind edir emaxpos eamp lambda london_s6 london_rcut fixed_magnetization x_gamma_extrapolation nqx1 nqx2 nqx3 nextgroup=espressoNumber skipwhite
-syntax keyword espressoKey nosym noinv force_symmorphic lda_plus_u noncolin lspinorb london nosym_evc no_t_rev space_group uniqueb origin_choice rhombohedral nextgroup=espressoBoolean skipwhite
+syntax keyword espressoKey nosym noinv force_symmorphic lda_plus_u noncolin lspinorb lforcet london nosym_evc no_t_rev space_group uniqueb origin_choice rhombohedral nextgroup=espressoBoolean skipwhite
 syntax keyword espressoKey occupations smearing input_dft exxdiv_treatment U_projection_type constrained_magnetization starting_magnetization angle1 angle2 nextgroup=espressoString skipwhite
 syntax keyword espressoKey starting_ns_eigenvalue Hubbard_J eopreg assume_isolated esm_bc esm_w esm_efield esm_nfit fcp_mu vdw_corr london_c6 xdm1 xdm2 nextgroup=espressoString skipwhite
 syntax keyword espressoKey nr1 nr2 nr3 nr1s nr2s nr3s starting_spin_angle nextgroup=espressoNumber skipwhite
