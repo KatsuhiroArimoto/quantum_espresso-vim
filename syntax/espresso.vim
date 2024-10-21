@@ -32,6 +32,7 @@ syntax match espressoBoolean '\.[fF][aA][lL][sS][eE]\.'
 
 runtime! **/quantum_espresso-vim/syntax/pw.vim
 runtime! **/quantum_espresso-vim/syntax/pw2wannier90.vim
+runtime! **/quantum_espresso-vim/syntax/bands.vim
 
 syntax region espressoNamelist start='&' end='/' fold transparent contains=espressoNumber,espressoKey,espressoString,espressoBoolean,espressoComment
 
